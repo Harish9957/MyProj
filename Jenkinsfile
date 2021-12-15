@@ -14,7 +14,7 @@ pipeline {
     }
         stage('Unit Tests'){
       steps {
-          echo "Test your App"
+          echo "Testing your App"
       }
     }
         stage('Deploy'){
