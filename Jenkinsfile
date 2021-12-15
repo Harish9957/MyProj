@@ -25,7 +25,7 @@ pipeline {
     }
 }
 
-def printThis():
+def printThis()
 {
      print('Its good')   
 }
