@@ -8,7 +8,7 @@ pipeline {
     }
         stage('Build'){
       steps {
-          echo "Build the App"
+          python3 test.py
       }
     }
         stage('Unit Tests'){
