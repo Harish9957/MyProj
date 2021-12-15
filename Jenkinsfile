@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages{
-    stage('Git Clone'){
+    stage('Git Checkout the Code'){
       steps {
           echo "Git clone the repo"
       }
