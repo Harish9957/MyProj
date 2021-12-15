@@ -7,8 +7,9 @@ pipeline {
       }
     }
         stage('Build'){
+            
       steps {
-          python3 test.py
+         printThis()
       }
     }
         stage('Unit Tests'){
@@ -22,4 +23,9 @@ pipeline {
       }
     }
     }
+}
+
+def printThis():
+{
+     print('Its good')   
 }
