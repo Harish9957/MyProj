@@ -19,7 +19,7 @@ pipeline {
     }
         stage('Deploy'){
       steps {
-          echo "Deploy your App"
+          echo "Deploy your App in test env"
       }
     }
     }
