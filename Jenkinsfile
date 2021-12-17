@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent {label 'Java Job'}
     stages{
     stage('Git Checkout the Code'){
       steps {
