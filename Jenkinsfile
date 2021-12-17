@@ -1,5 +1,5 @@
 pipeline {
-    agent {label 'Java Job'}
+    agent {label 'jenkins-slave-01'}
     stages{
     stage('Git Checkout the Code'){
       steps {
