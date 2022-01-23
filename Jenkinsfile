@@ -9,7 +9,7 @@ pipeline {
 
     stage('Build') {
       steps {
-        //printThis()
+        echo 'Build the Appl & generate the artifacts'
       }
     }
 
